@@ -2,6 +2,7 @@
 Simple Chrome extension
 
 ### Installation
+
 Clone project
 Open chrome://extensions/ tab
 Click "Developer mode" checkbox
