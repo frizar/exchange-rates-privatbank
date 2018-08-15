@@ -13,7 +13,7 @@
 
     let xhr = new XMLHttpRequest();
 
-    xhr.open('GET', 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5');
+    xhr.open('GET', 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=11');
 
     xhr.addEventListener('load', function() {
         // check valid JSON
