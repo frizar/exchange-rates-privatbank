@@ -3,9 +3,9 @@ Simple Chrome extension
 
 ### Installation
 
-Clone project
+Clone project (`git clone https://github.com/frizar/exchange-rates-privatbank`)
 
-Open chrome://extensions/ tab
+Open extensions tab (`chrome://extensions/`)
 
 Click "Developer mode" checkbox
 
