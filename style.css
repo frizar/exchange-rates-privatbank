@@ -1,0 +1,60 @@
+* {
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+#app {
+    padding: 0.5rem;
+    width: 232px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+}
+
+#menu #currencyType {
+    flex-shrink: 0;
+    padding: 0.2rem;
+}
+
+#menu #currencyValue {
+    flex-grow: 1;
+    min-width: 0;
+    padding: 0.2rem;
+}
+
+#result {
+    margin: 0.5rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid gray;
+}
+
+table th,
+table td {
+    padding: 0.2rem;
+}
+
+table tbody td {
+    text-align: center;
+}
+
+table tbody tr:hover {
+    background-color: #eee;
+}

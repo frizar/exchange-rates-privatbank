@@ -1,49 +1,31 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
-    <title>Курс валют ПриватБанка</title>
+    <title>Курс валют ПриватБанку</title>
 
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-
-        table, th, td {
-            border: 1px solid gray;
-        }
-
-        .calc {
-            white-space: nowrap;
-        }
-
-        input#currencyValue {
-            width: 40%;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div id="app">
+        <div id="menu">
+            <select id="currencyType">
+                <option value="EUR">EUR</option>
+                <option value="USD" selected>USD</option>
+                <option value="BTC">BTC</option>
+            </select>
+    
+            <input id="currencyValue" type="number" min="0" value="0" />
+        </div>
 
-<div class="calc">
-    <select id="currencyType">
-        <option value="USD">USD</option>
-        <option value="RUR">RUR</option>
-        <option value="EUR">EUR</option>
-        <option value="BTC">BTC</option>
-    </select>
+        <div id="result">
+            <div>Гривень:</div>
+            <div id="uahResult">0</div>
+        </div>
+    
+        <div id="table">Завантаження...</div>
+    </div>
 
-    <input id="currencyValue" type="number" min="0" value="0">
-
-    <br>
-
-    Гривен: <span id="uahResult">0</span>
-</div>
-
-<hr>
-
-<div class="table">Загрузка...</div>
-
-<script src="popup.js"></script>
-
+    <script src="./popup.js"></script>
 </body>
 </html>
